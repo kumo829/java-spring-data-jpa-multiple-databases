@@ -1,4 +1,4 @@
-package com.mozcalti.training.springdatajpa.image.origin.model;
+package com.mozcalti.training.springdatajpa.image.destination.model;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 @Entity
-public class Origin {
+public class Destination {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
